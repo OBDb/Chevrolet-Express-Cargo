@@ -1,4 +1,285 @@
 { "commands": [
-
+{ "hdr": "", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_RES_PID_ATF_T__VAR_4", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "RES(PID_ATF_TEMPERATURE) var.4"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4051"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ABS_FRONT_LEFT_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "ABS front left wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4052"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ABS_FRONT_RIGHT_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "ABS front right wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4053"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ABS_REAR_RIGHT_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "ABS rear right wheel speed"}
+  ]},
+{ "hdr": "760", "dbg": true, "cmd": {"22": "4054"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ABS_REAR_LEFT_WHEEL_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "ABS rear left wheel speed"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0052"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_E85__ALCOHOL__CONTENT_IN_FUEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "E85 (alcohol) content in fuel"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_IGNITION_1_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Ignition 1 voltage"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "114B"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_EGR_V", "path": "ECU", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "EGR V"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1154"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ENGINE_OIL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temp"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1161"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_OUTSIDE_AIR_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temp"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1170"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_EVAP", "path": "ECU", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "EVAP"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1171"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_EGR_DUTY_CYCLE", "path": "ECU", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "EGR duty cycle"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1172"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_IAC_POSITION", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "IAC position"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1192"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_DESIRED_IDLE_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 3187.5, "mul": 12.5, "unit": "rpm" }, "name": "Desired idle speed"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1193"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_1_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 1)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1194"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_2_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 2)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1195"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_3_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 3)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1196"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_4_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 4)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1197"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_5_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 5)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1198"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_6_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 6)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1199"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_7_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 7)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "119E"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_AFR_COMMANDED", "path": "ECU", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "scalar" }, "name": "AFR commanded"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11A1"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ELAPSED_TIME_SINCE_ENGINE_START", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Elapsed time since engine start"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11EA"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_5_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 5 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11EB"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_6_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 6 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11EC"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_7_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 7 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11ED"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_8_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 8 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11F8"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_5_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 5 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11F9"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_6_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 6 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11FA"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_7_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 7 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11FB"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_8_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 8 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1201"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_1_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 1 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1202"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_2_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 2 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1203"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_3_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 3 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1204"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_4_HISTORY", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire cyl 4 history"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_1_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 1 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1206"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_2_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 2 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1207"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_3_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 3 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1208"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_MISFIRE_CYL_4_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire cyl 4 current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "125E"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_KNOCK_SENSOR_ACTIVE_COUNTER", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock sensor active counter"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "129A"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INJECTOR_PULSE_WIDTH__CYL_8_", "path": "ECU", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width (cyl 8)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1470"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ENGINE_EOP", "path": "ECU", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1538"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_INTAKE_AIR_TEMP_2__IAT2_", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temp 2 (IAT2)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1564"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_AIR_CON_HIGH_SIDE_PRESSURE", "path": "ECU", "fmt": { "len": 8, "max": 515.1, "mul": 2.02, "unit": "psi" }, "name": "Air con high side pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "162F"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_1_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 1)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1630"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_2_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 2)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_3_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 3)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1632"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_4_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 4)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1633"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_5_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 5)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1634"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_6_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 6)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1635"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_7_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 7)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1636"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_BALANCE_RATE__CYL_8_", "path": "ECU", "fmt": { "len": 16, "max": 511.984375, "min": -512, "mul": 0.015625, "add": -512, "unit": "scalar" }, "name": "Balance rate (cyl 8)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_RES_PID_ATF_T__VAR_1",    "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "RES(PID_ATF_TEMPERATURE) var.1"},
+    {"id": "ECARGO_TRANSMISSION_FLUID_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "scalar"  }, "name": "Transmission fluid temp"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1992"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_LAST_SHIFT_TIME", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "Last shift time"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1993"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_1_2_SHIFT_TIME", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "1-2 shift time"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1994"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_2_3_SHIFT_TIME", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "2-3 shift time"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1995"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_3_4_SHIFT_TIME", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "3-4 shift time"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1997"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_1_2_SHIFT_ERROR", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "1-2 shift error"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1998"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_2_3_SHIFT_ERROR", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "2-3 shift error"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1999"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_3_4_SHIFT_ERROR", "path": "ECU", "fmt": { "len": 8, "max": 6.375, "mul": 0.025, "unit": "seconds" }, "name": "3-4 shift error"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "199A"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "3201"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.3"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_RES_PID_ATF_T__VAR_3", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "RES(PID_ATF_TEMPERATURE) var.3"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "280D"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
+  ]},
+{ "hdr": "7E2", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_RES_PID_ATF_T__VAR_2",         "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "RES(PID_ATF_TEMPERATURE) var.2"},
+    {"id": "ECARGO_TRANSMISSION_FLUID_TEMP_7E2_", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "scalar"  }, "name": "Transmission fluid temp(7e2)"}
+  ]},
+{ "hdr": "7E2", "dbg": true, "cmd": {"22": "199A"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear var.2"}
+  ]},
+{ "hdr": "7E2", "dbg": true, "cmd": {"22": "280D"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
+  ]},
+{ "hdr": "7E3", "dbg": true, "cmd": {"22": "280D"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_RES_PID_ATF_T__VAR_5", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "RES(PID_ATF_TEMPERATURE) var.5"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "1942"}, "freq": 1,
+  "signals": [
+    {"id": "ECARGO_OUTPUT_SHAFT_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 63.75, "mul": 0.25, "unit": "rpm" }, "name": "Output shaft speed"}
+  ]}
 ]
 }
