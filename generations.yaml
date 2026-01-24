@@ -1,0 +1,15 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Express"
+
+generations:
+  - name: "First Generation (1996-2002)"
+    start_year: 1996
+    end_year: 2002
+    platform_code: "GMT600"
+    description: "Original design for 1996 model year, first all-new design since 1971 for full-size van line. Introduced with substantial improvements including forward axle placement and increased passenger space."
+
+  - name: "First Generation (2003-present, Facelift)"
+    start_year: 2003
+    end_year: 2024
+    platform_code: "GMT610"
+    description: "2003 mid-cycle revision with substantial frame and chassis upgrades. Bodywork forward of windshield revised with higher hood line. GMT610 platform continues in production through 2026 model year."
