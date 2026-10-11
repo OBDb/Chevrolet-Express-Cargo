@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221564
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_AC_HIGH_SIDE_P: 84.84
+  response: 7E8046215642A
+- expected_values:
+    EXPRESS_CARGO_AC_HIGH_SIDE_P: 270.68
+  response: '7E80462156486'
+- expected_values:
+    EXPRESS_CARGO_AC_HIGH_SIDE_P: 280.78
+  response: 7E8046215648B
+- expected_values:
+    EXPRESS_CARGO_AC_HIGH_SIDE_P: 305.02
+  response: '7E80462156497'
