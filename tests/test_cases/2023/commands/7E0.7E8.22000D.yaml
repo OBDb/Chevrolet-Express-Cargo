@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    EXPRESS_CARGO_VSS: 92
+  response: 7E80462000D5C
+- expected_values:
+    EXPRESS_CARGO_VSS: null
+  response: 7E80462000DFF
