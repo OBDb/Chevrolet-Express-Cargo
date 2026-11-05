@@ -4,5 +4,5 @@ test_cases:
     EXPRESS_CARGO_EOT_CALC: 13
   response: '7E80462115435'
 - expected_values:
-    EXPRESS_CARGO_EOT_CALC: 58
-  response: '7E80462115462'
+    EXPRESS_CARGO_EOT_CALC: 90
+  response: '7E80462115482'

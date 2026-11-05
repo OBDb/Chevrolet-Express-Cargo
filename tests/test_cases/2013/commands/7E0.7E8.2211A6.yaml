@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     EXPRESS_CARGO_KNOCK_RETARD: 0
   response: 7E8046211A600
+- expected_values:
+    EXPRESS_CARGO_KNOCK_RETARD: 2.64
+  response: 7E8046211A60C
+- expected_values:
+    EXPRESS_CARGO_KNOCK_RETARD: 7.7
+  response: 7E8046211A623

@@ -7,8 +7,26 @@ test_cases:
     EXPRESS_THROTTLE_POS_CALC_V2: 1.56863
   response: '7E80462281004'
 - expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 2.35294
+  response: '7E80462281006'
+- expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 2.7451
+  response: '7E80462281007'
+- expected_values:
     EXPRESS_THROTTLE_POS_CALC_V2: 3.92157
   response: 7E8046228100A
 - expected_values:
     EXPRESS_THROTTLE_POS_CALC_V2: 4.31373
   response: 7E8046228100B
+- expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 5.4902
+  response: 7E8046228100E
+- expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 27.05882
+  response: '7E80462281045'
+- expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 27.45098
+  response: '7E80462281046'
+- expected_values:
+    EXPRESS_THROTTLE_POS_CALC_V2: 36.47059
+  response: 7E8046228105D

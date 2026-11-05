@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221470|fc=1
 test_cases:
 - expected_values:
-    EXPRESS_CARGO_EOP_DA11: 248
-  response: 7E8046214703E
+    EXPRESS_CARGO_EOP_DA11: 216
+  response: '7E80462147036'
 - expected_values:
     EXPRESS_CARGO_EOP_DA11: 320
   response: '7E80462147050'

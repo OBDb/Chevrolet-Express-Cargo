@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.220010|fc=1
 test_cases:
 - expected_values:
-    EXPRESS_CARGO_MAF: 5.91
-  response: 7E805620010024F
+    EXPRESS_CARGO_MAF: 5.67
+  response: '7E8056200100237'
 - expected_values:
     EXPRESS_CARGO_MAF: 7.63
   response: 7E80562001002FB
 - expected_values:
     EXPRESS_CARGO_MAF: 40.99
   response: '7E8056200101003'
+- expected_values:
+    EXPRESS_CARGO_MAF: 59.19
+  response: 7E805620010171F
