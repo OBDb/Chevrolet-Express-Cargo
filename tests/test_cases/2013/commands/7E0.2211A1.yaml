@@ -1,0 +1,11 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_RUNTM: 24
+  response: 7E8056211A10018
+- expected_values:
+    EXPRESS_CARGO_RUNTM: 246
+  response: 7E8056211A100F6
+- expected_values:
+    EXPRESS_CARGO_RUNTM: 276
+  response: 7E8056211A10114

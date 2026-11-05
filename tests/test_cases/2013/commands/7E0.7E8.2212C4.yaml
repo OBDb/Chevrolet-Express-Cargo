@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2212C4
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_INJECTOR_DUTY_CYCLE_BANK_2: 1.395
+  response: 7E8056212C4005D
+- expected_values:
+    EXPRESS_CARGO_INJECTOR_DUTY_CYCLE_BANK_2: 3.765
+  response: 7E8056212C400FB
+- expected_values:
+    EXPRESS_CARGO_INJECTOR_DUTY_CYCLE_BANK_2: 3.855
+  response: 7E8056212C40101

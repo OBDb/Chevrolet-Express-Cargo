@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22280D
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_ATF_T_VAR_6: 15
+  response: 7EA0462280D37
+- expected_values:
+    EXPRESS_CARGO_ATF_T_VAR_6: 44
+  response: 7EA0462280D54

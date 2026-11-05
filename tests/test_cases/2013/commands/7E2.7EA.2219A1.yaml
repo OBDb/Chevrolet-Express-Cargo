@@ -1,0 +1,17 @@
+command_id: 7E2.7EA.2219A1
+test_cases:
+- expected_values:
+    EXPRESS_GEAR_RAT_V2: 54
+  response: 7EA046219A136
+- expected_values:
+    EXPRESS_GEAR_RAT_V2: 73
+  response: 7EA046219A149
+- expected_values:
+    EXPRESS_GEAR_RAT_V2: 151
+  response: 7EA046219A197
+- expected_values:
+    EXPRESS_GEAR_RAT_V2: 225
+  response: 7EA046219A1E1
+- expected_values:
+    EXPRESS_GEAR_RAT_V2: 255
+  response: 7EA046219A1FF

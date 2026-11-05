@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221144
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_CABIN_AC_HIGH_SIDE_V: 0.78
+  response: '7E80462114427'
+- expected_values:
+    EXPRESS_CARGO_CABIN_AC_HIGH_SIDE_V: 1.36
+  response: '7E80462114444'

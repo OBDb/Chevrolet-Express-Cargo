@@ -1,0 +1,26 @@
+command_id: 7E2.7EA.221942
+test_cases:
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 0
+  response: 7EA056219420000
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 0.75
+  response: 7EA05621942038C
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 3
+  response: 7EA056219420C94
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 3.5
+  response: 7EA056219420E6D
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 7.75
+  response: 7EA056219421FE4
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 10.75
+  response: 7EA056219422BE5
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 12.25
+  response: 7EA056219423122
+- expected_values:
+    EXPRESS_OUTPUT_SHFT_SPD_V2: 12.75
+  response: 7EA056219423341
