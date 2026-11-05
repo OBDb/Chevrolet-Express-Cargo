@@ -4,5 +4,5 @@ test_cases:
     EXPRESS_CARGO_ATF_T_VAR_6: 15
   response: 7EA0462280D37
 - expected_values:
-    EXPRESS_CARGO_ATF_T_VAR_6: 44
-  response: 7EA0462280D54
+    EXPRESS_CARGO_ATF_T_VAR_6: 79
+  response: 7EA0462280D77

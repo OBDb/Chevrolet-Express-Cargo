@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     EXPRESS_CARGO_INJECTOR_DUTY_CYCLE_BANK_2: 3.855
   response: 7E8056212C40101
+- expected_values:
+    EXPRESS_CARGO_INJECTOR_DUTY_CYCLE_BANK_2: 7.695
+  response: 7E8056212C40201

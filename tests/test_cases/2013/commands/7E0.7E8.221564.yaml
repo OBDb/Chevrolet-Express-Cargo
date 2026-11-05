@@ -4,5 +4,5 @@ test_cases:
     EXPRESS_CARGO_AC_HIGH_SIDE_P: 54.54
   response: 7E8046215641B
 - expected_values:
-    EXPRESS_CARGO_AC_HIGH_SIDE_P: 107.06
-  response: '7E80462156435'
+    EXPRESS_CARGO_AC_HIGH_SIDE_P: 161.6
+  response: '7E80462156450'

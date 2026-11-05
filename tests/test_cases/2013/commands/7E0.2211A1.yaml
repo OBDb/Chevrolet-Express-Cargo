@@ -4,8 +4,8 @@ test_cases:
     EXPRESS_CARGO_RUNTM: 24
   response: 7E8056211A10018
 - expected_values:
-    EXPRESS_CARGO_RUNTM: 246
-  response: 7E8056211A100F6
+    EXPRESS_CARGO_RUNTM: 249
+  response: 7E8056211A100F9
 - expected_values:
     EXPRESS_CARGO_RUNTM: 276
   response: 7E8056211A10114

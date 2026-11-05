@@ -1,14 +1,11 @@
 command_id: 7E2.7EA.221941
 test_cases:
 - expected_values:
-    EXPRESS_CARGO_TRANS_ISS: 1061.75
-  response: 7EA056219411097
-- expected_values:
-    EXPRESS_CARGO_TRANS_ISS: 1538.25
-  response: 7EA056219411809
+    EXPRESS_CARGO_TRANS_ISS: 0
+  response: 7EA056219410000
 - expected_values:
     EXPRESS_CARGO_TRANS_ISS: 2237.75
   response: 7EA0562194122F7
 - expected_values:
-    EXPRESS_CARGO_TRANS_ISS: 3221.5
-  response: 7EA056219413256
+    EXPRESS_CARGO_TRANS_ISS: 3525.75
+  response: 7EA056219413717

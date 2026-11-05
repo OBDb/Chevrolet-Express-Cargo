@@ -7,6 +7,12 @@ test_cases:
     EXPRESS_TRANS_P: 8000
   response: 7EA056228621F40
 - expected_values:
+    EXPRESS_TRANS_P: 8500
+  response: 7EA056228622134
+- expected_values:
+    EXPRESS_TRANS_P: 8798
+  response: 7EA05622862225E
+- expected_values:
     EXPRESS_TRANS_P: 9213
   response: 7EA0562286223FD
 - expected_values:
