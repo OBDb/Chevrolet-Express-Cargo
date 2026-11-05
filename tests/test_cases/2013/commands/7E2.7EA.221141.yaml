@@ -1,0 +1,17 @@
+command_id: 7E2.7EA.221141
+test_cases:
+- expected_values:
+    EXPRESS_IGN_V_V2: 14.1
+  response: 7EA046211418D
+- expected_values:
+    EXPRESS_IGN_V_V2: 14.2
+  response: 7EA046211418E
+- expected_values:
+    EXPRESS_IGN_V_V2: 14.3
+  response: 7EA046211418F
+- expected_values:
+    EXPRESS_IGN_V_V2: 14.4
+  response: 7EA0462114190
+- expected_values:
+    EXPRESS_IGN_V_V2: 14.5
+  response: 7EA0462114191

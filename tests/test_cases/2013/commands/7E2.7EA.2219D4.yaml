@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.2219D4
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_CLU_SLIP_C3_RING: 1131.75
+  response: 7EA056219D411AF
+- expected_values:
+    EXPRESS_CARGO_CLU_SLIP_C3_RING: 1148.5
+  response: 7EA056219D411F2
+- expected_values:
+    EXPRESS_CARGO_CLU_SLIP_C3_RING: 1153
+  response: 7EA056219D41204
+- expected_values:
+    EXPRESS_CARGO_CLU_SLIP_C3_RING: 3275.75
+  response: 7EA056219D4332F

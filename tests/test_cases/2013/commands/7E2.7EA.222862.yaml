@@ -1,0 +1,26 @@
+command_id: 7E2.7EA.222862
+test_cases:
+- expected_values:
+    EXPRESS_TRANS_P: 6912
+  response: 7EA056228621B00
+- expected_values:
+    EXPRESS_TRANS_P: 8000
+  response: 7EA056228621F40
+- expected_values:
+    EXPRESS_TRANS_P: 9213
+  response: 7EA0562286223FD
+- expected_values:
+    EXPRESS_TRANS_P: 9600
+  response: 7EA056228622580
+- expected_values:
+    EXPRESS_TRANS_P: 9637
+  response: 7EA0562286225A5
+- expected_values:
+    EXPRESS_TRANS_P: 9638
+  response: 7EA0562286225A6
+- expected_values:
+    EXPRESS_TRANS_P: 9733
+  response: 7EA056228622605
+- expected_values:
+    EXPRESS_TRANS_P: 9829
+  response: 7EA056228622665

@@ -1,0 +1,32 @@
+command_id: 7E2.7EA.221940
+test_cases:
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 15
+  response: 7EA0462194037
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 18
+  response: 7EA046219403A
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 19
+  response: 7EA046219403B
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 20
+  response: 7EA046219403C
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 21
+  response: 7EA046219403D
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 32
+  response: 7EA0462194048
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 37
+  response: 7EA046219404D
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 40
+  response: 7EA0462194050
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 42
+  response: 7EA0462194052
+- expected_values:
+    EXPRESS_CARGO_ATF_T: 44
+  response: 7EA0462194054
