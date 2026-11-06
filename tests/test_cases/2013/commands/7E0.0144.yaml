@@ -1,6 +1,9 @@
 command_id: 7E0.0144
 test_cases:
 - expected_values:
+    EQ_RAT: 0.86914
+  response: 7E80441446F40
+- expected_values:
     EQ_RAT: 0.90918
   response: '7E80441447460'
 - expected_values:
