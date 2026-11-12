@@ -4,5 +4,5 @@ test_cases:
     EXPRESS_CARGO_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    EXPRESS_CARGO_VSS: 85
-  response: 7E80462000D55
+    EXPRESS_CARGO_VSS: 94
+  response: 7E80462000D5E
